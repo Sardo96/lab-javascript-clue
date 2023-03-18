@@ -8,13 +8,13 @@ Use this data to model your game cards into objects.
 
 ```
 mrGreen
-firstName: Jacob
-lastName: Green
-occupation: Entrepreneur
-age: 45
-description: He has a lot of connections
-image: https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg
-color: green
+{firstName: "Jacob",
+lastName: "Green",
+occupation: "Entrepreneur",
+age: "45",
+description: "He has a lot of connections",
+image: "https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg",
+color: "green",}
 ```
 
 ```
@@ -93,19 +93,19 @@ name: pistol --- weight: 20
 ### Rooms
 
 ```
-name: Dining Room
-name: Conservatory
-name: Kitchen
-name: Study
-name: Library
-name: Billiard Room
-name: Lounge
-name: Ballroom
-name: Hall
-name: Spa
-name: Living Room
-name: Observatory
-name: Theater
-name: Guest House
-name: Patio
+{name: "Dining Room"},
+{name: "Conservatory"},
+{name: "Kitchen"},
+{name: "Study"},
+{name: "Library"},
+{name: "Billiard Room"},
+{name: "Lounge"},
+{name: "Ballroom"},
+{name: "Hall"},
+{name: "Spa"},
+{name: "Living Room"},
+{name: "Observatory"},
+{name: "Theater"},
+{name: "Guest House"},
+{name: "Patio"},
 ```

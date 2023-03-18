@@ -100,12 +100,12 @@ describe('Function "selectRandom" - Find a random element of the array', () => {
     expect(typeof selectRandom).toBe('function');
   });
 
-  it("should return undefined if the array is empty", () => {
+  it('should return undefined if the array is empty', () => {
     expect(selectRandom([])).toBe(undefined);
   });
 
-  it("should return the element of a single value array", () => {
-    expect(selectRandom(["ab"])).toBe("ab");
+  it('should return the element of a single value array', () => {
+    expect(selectRandom(['ab'])).toBe('ab');
   });
 
   it('should return an element of the array', () => {
@@ -150,10 +150,10 @@ describe('Function "pickMystery" - Pick a random mystery', () => {
     const mistery = pickMystery();
 
     expect(Object.keys(mistery).length).toBe(3);
-    
+
     expect(Object.keys(mistery)).toContain('suspect');
     expect(Object.keys(mistery)).toContain('weapon');
-    expect(Object.keys(mistery)).toContain('room');    
+    expect(Object.keys(mistery)).toContain('room');
   });
 
   it('should return a suspect in the suspect property of the object', () => {
